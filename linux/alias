@@ -1,0 +1,5 @@
+#Ubuntu only
+alias open="xdg-open"
+
+#clip file to clipboard(linux only?)
+alias clip='xclip -sel clip < '

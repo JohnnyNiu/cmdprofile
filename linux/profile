@@ -1,0 +1,8 @@
+source linux/alias
+
+
+####### Aconex ######
+# ohmyzsh - Jira plugin - for aconex
+export JIRA_URL="https://intranet.aconex.com/jira"
+export JIRA_PREFIX="XTN-"
+

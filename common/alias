@@ -1,0 +1,12 @@
+#find alias
+alias fa="alias | grep"
+
+alias d="docker"
+alias drm='docker rm $(docker ps -aq)'
+alias drmi='docker rmi $(docker images -aq)'
+alias drmin='docker rmi $(docker images -f "dangling=true" -aq)'
+
+alias g="./gradlew"
+alias a="ansible"
+alias v="vagrant"
+

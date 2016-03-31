@@ -1,0 +1,18 @@
+
+source ./common/alias
+
+# -*- os specific profile-*-
+case $OSTYPE in
+    solaris10)
+        ;;
+    linux*)
+        #echo "appling linux-specific profiles"
+        source linux/profile
+        ;;
+    darwin*)
+        #echo "appling osx-specific profiles"
+        source osx/profile
+        ;;
+    *)
+        ;;
+esac
