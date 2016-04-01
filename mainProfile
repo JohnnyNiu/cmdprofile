@@ -1,5 +1,5 @@
 
-source ./common/alias
+source ~/cmdprofile/common/alias
 
 # -*- os specific profile-*-
 case $OSTYPE in
@@ -7,11 +7,11 @@ case $OSTYPE in
         ;;
     linux*)
         #echo "appling linux-specific profiles"
-        source linux/profile
+        source ~/cmdprofile/linux/profile
         ;;
     darwin*)
         #echo "appling osx-specific profiles"
-        source osx/profile
+        source ~/cmdprofile/osx/profile
         ;;
     *)
         ;;
