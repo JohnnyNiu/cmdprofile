@@ -3,3 +3,6 @@ alias open="xdg-open"
 
 #clip file to clipboard(linux only?)
 alias clip='xclip -sel clip < '
+
+#cheatsheet
+alias cheat1='cat ~/cmdprofile/linux/cheatsheet/kb_shortcut.txt'
