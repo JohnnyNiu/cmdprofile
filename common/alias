@@ -10,3 +10,6 @@ alias g="./gradlew"
 alias a="ansible"
 alias v="vagrant"
 
+
+#zsh with jump plugins
+alias j='jump'
