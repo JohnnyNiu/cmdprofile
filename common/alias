@@ -1,3 +1,6 @@
+#Set cmdprofile it self as alias
+alias cmdprofile='source ~/cmdprofile/mainProfile'
+
 #find alias
 alias fa="alias | grep"
 
