@@ -16,3 +16,7 @@ alias v="vagrant"
 
 #zsh with jump plugins
 alias j='jump'
+
+#process greping with
+alias psgrep='ps -ef | grep'
+alias pskill='. ~/cmdprofile/common/bin/pskill.sh'
