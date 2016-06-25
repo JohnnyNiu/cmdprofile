@@ -1,3 +1,6 @@
+gt = next tab
+gT = previous tab
+
 ### Files
 o: open in prev window
 go: preview
