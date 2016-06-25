@@ -17,6 +17,12 @@ alias v="vagrant"
 #zsh with jump plugins
 alias j='jump'
 
+#home-made
 #process greping with
 alias psgrep='ps -ef | grep'
 alias pskill='. ~/cmdprofile/common/bin/pskill.sh'
+
+#home-made
+#open my own cheatsheet
+alias cs='. ~/cmdprofile/common/bin/cheatsheet.sh'
+
